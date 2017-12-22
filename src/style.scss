@@ -1,0 +1,56 @@
+$dark-blue: #2D9CDB;
+$light-blue: #34A9EC;
+$green:  #ABE831;
+body{
+  font-family: "Arial", serif;
+}
+.head{
+  background-color: $dark-blue;
+  height: 41vh;
+}
+.status{
+  width: 220px;
+  height: 220px;
+  background-color: $light-blue;
+  border-radius: 50%;
+  text-align: center;
+  margin: {
+    left: auto;
+    right: auto;
+    top: -130px;
+    bottom: 60px;
+  };
+  &__img{
+    width: 100px;
+    display: inline-block;
+    margin: 20px 0 15px;
+  }
+  &__text{
+    margin: 0;
+    color: #fff;
+    font-size: 26px;
+  }
+}
+.message{
+  text-align: center;
+  &__title{
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: .3em;
+  }
+  &__text{
+    margin-top: 0;
+    font-size: 18px;
+    letter-spacing: .01em;
+  }
+  &__link{
+    color: #fff;
+    background-color: $green;
+    display: inline-block;
+    text-decoration: none;
+    width: 180px;
+    padding: 7px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+}
